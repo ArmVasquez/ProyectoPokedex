@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.menu{
+    width: 100%;
+    background-color: #dc0a2d;
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.menu h1{
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.busqueda{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda input, button{
+    margin: 0px 0.5%;
+}
+
+.data{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    font-size: 20px;
+ /*   background-image: url(./images/UI/data.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+
+.data img{
+    position: absolute;
+    margin: 20px 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.data div img{
+    position: absolute;
+    left: 615px;
+}
+
+.data1{
+    position: absolute;
+    top:175px;
+    left: 735px;
+}
+
+.salud{
+    position: absolute;
+    top:65px;
+    left: 195px;
+}
+
+.tipo{
+    position: absolute;
+    top: 370px;
+    left: 810px;
+}
+
+.ataque{
+    position: absolute;
+    top: 370px;
+    left: 550px;
+}
+
+.ataqueValue{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}
+
+.defensa{
+    position: absolute;
+    top: 420px;
+    left: 550px;
+}
+
+.defensaValue{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}
+
+.velocidad{
+    position: absolute;
+    top: 470px;
+    left: 550px;
+}
+
+.velocidadValue{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}
+
+.especial{
+    position: absolute;
+    top: 520px;
+    left: 550px;
+}
+
+.especialValue{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}

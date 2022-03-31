@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex | LaunchX</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./pkdex.js" defer></script>
+</head>
+<body>
+    <section class="menu">
+        <img src="./images/pokemon-ball-icon-transparent.png" alt="logo" id="logo" width="100px">
+        <h1>POKEDEX</h1>
+        <div class="busqueda">
+            <input type="text" placeholder="Nombre" id="nombreBusqueda" name="nombreBusqueda">
+            <button onclick="buscarPokemon()">Buscar Pokemon</button>
+        </div>
+    </section>
+
+    <section class="data">
+        <img src="./images/UI/data.png" alt="status" id="status" width="500px">
+        <div>
+            <img src="./images/pokeball (2).png" alt="Pokemon" id="pokeImg" width="200px">
+            <div class="data1">
+                <div id="nombre"></div>
+                <div id="salud" class="salud"></div>
+            </div>
+        </div>
+
+        <div class="tipo">
+            <div>TYPE/</div><div id="tipo"></div>
+        </div>
+
+        <div class="ataque">
+            <div>ATTACK</div><div id="ataque" class="ataqueValue"></div>
+        </div>
+
+        <div class="defensa">
+            <div>DEFENSE</div><div id="defensa" class="defensaValue"></div>
+        </div>
+
+        <div class="velocidad">
+            <div>SPEED</div><div id="velocidad" class="velocidadValue"></div>
+        </div>
+
+        <div class="especial">
+            <div>SPECIAL</div><div id="ataqueEsp" class="especialValue"></div>
+        </div>
+<!--        <div>Special Defense:</div><div id="defensaEsp"></div>-->  
+    </section>
+</body>
+</html>
